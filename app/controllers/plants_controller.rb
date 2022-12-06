@@ -9,7 +9,7 @@ class PlantsController < ApplicationController
 
     def show
         plant = Plant.find(params[:id])
-        render json: plant,status: :ok
+        render json: plant,status: :ok, serializer: PlantAndReviewSerializer
     end
 
     def create
