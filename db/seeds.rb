@@ -1,4 +1,12 @@
 puts "Seeding plants 🌱"
+
+User.create!([
+    {username: "Melissa McCarthy",password_digest: "1234"},
+    {username: "Jane Smith",password_digest: "1234"},
+    {username: "Lily Odinson",password_digest: "1234"},
+    {username: "Peter James",password_digest: "1234"}
+  ])
+
   Plant.create!([
     {name: "Begonia", description: "They enjoy damp soil all the time, but if it is too wet, root rot is likely to happen. On top of that, they prefer humidity but misting is not a good idea as they develop powdery mildew.",likes:6,image_url: "https://abanahomes.com/wp-content/uploads/2022/07/Begonia-1024x683.jpg"},
     {name: "African Violet", description: "African violet likes small containers, which spurs blooming. Also, keep your African violet indoor plant moist and pot-bound, keep them in bright light, and fertilize them with a balanced flower fertilizer to keep them performing all year.",likes:4,image_url: "https://abanahomes.com/wp-content/uploads/2022/07/African-Violet-1024x683.jpg"},
@@ -12,13 +20,7 @@ puts "Seeding plants 🌱"
 
   puts "Seeding users 👫"
 
-  User.create!([
-    {username: "Melissa McCarthy",password_digest: "1234"},
-    {username: "Jane Smith",password_digest: "1234"},
-    {username: "Lily Odinson",password_digest: "1234"},
-    {username: "Peter James",password_digest: "1234"}
-  ])
-
+ 
   puts "Seeding reviews 🖋"
 
   Review.create!([

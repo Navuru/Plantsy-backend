@@ -21,7 +21,7 @@ lisalyayuga@gmail.com
 
 
 ## Installation
-To setup the site,follow the  [link](https://github.com/). This setups the backend of the site.
+To setup the site,follow the  [link](https://plantsy-production-7d90.up.railway.app/plants). This setups the backend of the site.
 Optionally you can clone both this repository and the front-end repository `Plantsy-frontend` onto your local machine by:
 
 ```console
