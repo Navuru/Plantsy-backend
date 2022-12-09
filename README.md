@@ -1,24 +1,55 @@
-# README
+# PLANTSY
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
+Plantsy is a simple site to enable plant lovers to share ideas on different plants and flowers and how much work it takes to manage them and their different conditions for survival.
 
-Things you may want to cover:
+## Author
+Lisa Lyayuga
 
-* Ruby version
+lisalyayuga@gmail.com
 
-* System dependencies
+## Technologies
+### Frontend
+- ReactJs
+- HTML
+- CSS
+- JavaScript
+### Backend
+- Ruby on Rails
+- SQlite database
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+## Installation
+To setup the site,follow the  [link](https://github.com/). This setups the backend of the site.
+Optionally you can clone both this repository and the front-end repository `Plantsy-frontend` onto your local machine by:
 
-* How to run the test suite
+```console
+$ git clone git@github.com:Navuru/Plantsy-backend.git
+$ cd Plantsy-backend
+$ bundle install
+$ rails s
+```
+to install the dependent gems and start the rails server.
 
-* Services (job queues, cache servers, search engines, etc.)
+ Proceed to start the frontend with;
+```console
+$ git clone git@github.com:Navuru/Plantsy-frontend.git
+$ cd Plantsy-frontend
+$ npm install
+$ npm start
+```
+to install the node modules and execute the startup script.
 
-* Deployment instructions
+This sites use ruby version ` 2.7.4` and node version ` v16.17.1`
+The site uses sqlite database and it will be initialized when the server starts running.
+## Licence
+MIT License
 
-* ...
+Copyright (c) 2022
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
