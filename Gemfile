@@ -15,6 +15,9 @@ gem "sqlite3", "~> 1.4"
 gem "puma", "~> 5.0"
 
 gem 'faker', '~> 3.0'
+group :production do
+  gem "pg"
+end
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
