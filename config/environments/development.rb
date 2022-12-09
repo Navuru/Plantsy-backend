@@ -54,7 +54,7 @@ Rails.application.configure do
   config.active_record.verbose_query_logs = true
 
   # config.hosts << "plantsy-production.up.railway.app"
-  config.hosts << "plantsy-production.up.railway.app"
+  config.hosts << "plantsy-production-7d90.up.railway.app"
   
 
   # Raises error for missing translations.

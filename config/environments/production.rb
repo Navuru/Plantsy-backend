@@ -6,7 +6,7 @@ Rails.application.configure do
   # Code is not reloaded between requests.
   config.cache_classes = true
 
-  config.hosts << "plantsy-production.up.railway.app"
+  config.hosts << "plantsy-production-7d90.up.railway.app"
   
 
   # Eager load code on boot. This eager loads most of Rails and
